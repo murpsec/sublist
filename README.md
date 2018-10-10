@@ -7,7 +7,7 @@ sublist quickly enumerates subdomains while querying crt.sh.  the tool is useful
 this list can be used to feed into eyewitness or any other tool used in the OSINT process.
 
 # screenshot
-![image] (sublist_screengrab.PNG)
+![screengrab](https://github.com/murpsec/sublist/blob/master/sublist_screengrab.PNG)
 
 # usage 
 *sudo python3 sublist.py*

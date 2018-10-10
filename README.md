@@ -1,5 +1,5 @@
 # sublist
-quick subdomain enumeration using crt.sh
+quick and easy, no frills subdomain enumeration using crt.sh
 
 # about
 sublist quickly enumerates subdomains while querying crt.sh.  the tool is useful for penetration testers, threat hunters, bug bounty hunters, and anyone else looking to enumerate their external posture.  

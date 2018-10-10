@@ -9,7 +9,7 @@ this list can be used to feed into eyewitness or any other tool used in the OSIN
 # screenshots 
 
 # usage 
-python3 sublist.py 
+*sudo python3 sublist.py*
 
 # python version
 sublist supports python 3.x

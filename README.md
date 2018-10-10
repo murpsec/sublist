@@ -19,6 +19,9 @@ sublist supports python 3.x
 beautifulsoup4 <br>
 from your terminal run - *sudo apt-get install python3-bs4*
 
+# installation
+*sudo git clone https://github.com/murpsec/sublist.git*
+
 
 
 

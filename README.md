@@ -9,18 +9,19 @@ this list can be used to feed into eyewitness or any other tool used in the OSIN
 # screenshot
 ![screengrab](https://github.com/murpsec/sublist/blob/master/sublist_screen.png)
 
-# usage 
-*sudo python3 sublist.py*
+# installation and usage 
+*sudo git clone https://github.com/murpsec/sublist.git* <br>
+*cd sublist* <br>
+*sudo python3 sublist.py* <br>
+
+You have to ability to save the output as a txt file.  If you chose this option, it will be in the directory in which sublist was ran.
 
 # python version
 sublist supports python 3.x
 
 # dependencies
 beautifulsoup4 <br>
-from your terminal run - *sudo apt-get install python3-bs4*
-
-# installation
-*sudo git clone https://github.com/murpsec/sublist.git*
+to install run - *sudo apt-get install python3-bs4*
 
 
 

@@ -56,7 +56,7 @@ if len(out) <= 0:
     print ("Oops, invalid domain! Re-run with a valid domain.")
     sys.exit()
 else:
-  question = input("Would you like to output a file? y/n: ")
+  question = input("Would you like to output to a txt file? y/n: ")
   if question.lower() != "y" and question.lower() != "n":
     print ("You did not enter a valid answer, please re-run.")
     sys.exit()

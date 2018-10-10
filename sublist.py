@@ -56,7 +56,20 @@ if len(out) <= 0:
     print ("Oops, invalid domain! Re-run with a valid domain.")
     sys.exit()
 else:
+  question = input("Would you like to output a file? y/n: ")
+  if question.lower() != "y" and question.lower() != "n":
+    print ("You did not enter a valid answer, please re-run.")
+    sys.exit()
+
+  if question.lower() == "y":
+    outfile = open(url+".txt","w")
   while "Identity" in out:
 	  out.remove("Identity")
 for i in out:
   print (i)
+  if question.lower() == "y":
+    outfile.write(i + "\n")
+if question.lower() == "y":
+  outfile.close()
+print ("============================")
+print ("There were "+ str(len(out)) +" unique domains!")

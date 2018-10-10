@@ -8,8 +8,6 @@ this list can be used to feed into eyewitness or any other tool used in the OSIN
 
 # screenshots 
 
-# installation
-
 # usage 
 python3 sublist.py 
 
@@ -17,6 +15,9 @@ python3 sublist.py
 sublist supports python 3.x
 
 # dependencies
+beautifulsoup4 <br>
+from your terminal run - *sudo apt-get install python3-bs4*
+
 
 
 
